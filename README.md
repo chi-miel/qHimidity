@@ -15,16 +15,17 @@ Les valeurs mesurées par qHumidity seront comparées à des seuils. Si les seui
 Le capteur d'humidité envoie des données qui permettent de piloter une machine de régulation automatique de l'humidité.
 Ce capteur est primordial pour assurer la sécurité de l'activité de l'entreprise et des salariés.
 Personne ne doit pouvoir falsifier ou bloquer les valeurs envoyées par le capteur.
-Composition de qHumidity              
-Une carte Arduino Uno
-Capteur d’humidité DHT11
-Capteur de luminosité
-Capteur de mouvement (de type Tilt dans le prototype, l’idéal serait un accéléromètre)
-Module WiFi (non mis en place dans le prototype)
-Un écran LCD pour afficher les valeurs
-Notion de sécurité
 
-## Hardware
+## Composition de qHumidity              
+* Une carte Arduino Uno
+* Capteur d’humidité DHT11
+* Capteur de luminosité
+* Capteur de mouvement (de type Tilt dans le prototype, l’idéal serait un accéléromètre)
+* Module WiFi (non mis en place dans le prototype)
+* Un écran LCD pour afficher les valeurs
+## Notion de sécurité
+
+### Hardware
 
 qHumidity peut être attaqué physiquement si on a accès au boitier.
 Il est possible de modifier les valeurs mesurées par le capteur d’humidité/température et ainsi tromper les seuils.
