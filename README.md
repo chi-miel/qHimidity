@@ -30,13 +30,18 @@ qHumidity peut être attaqué physiquement si on a accès au boitier.
 Il est possible de modifier les valeurs mesurées par le capteur d’humidité/température et ainsi tromper les seuils.
 Il peut se passer deux choses : la personne malveillante doit ouvrir le boitier et pour cela il doit le bouger.
 Pour éviter une modification des éléments du boitier nous l’avons équipé de 2 capteurs de sécurité :
-un capteur de luminosité
+
+* un capteur de luminosité
+
 Enfermé dans la boitier, ce capteur capte une valeur de luminosité très faible. Une fois le boitier ouvert cette valeur va fortement augmenter.
+
 → on détecte alors que le boîtier est ouvert et on affiche un message d’erreur sur l’écran + envoie de mail + éventuellement un arrêt de l’application.
 Ce capteur peut être falsifié mais pour cela il faudra bouger le boîtier.
 
-un capteur de mouvement
+* un capteur de mouvement
+
 Le boîtier est fixé en mur, si il en est décroché, le capteur va le détecter.
+
 → on détecte alors que le boitier est en mouvement et on affiche un message d’erreur sur l’écran + envoie de mail + éventuellement un arrêt de l’application.
 Dans le prototype on utilise un capteur “tilt” qui n’est pas très précis. L’idéal serait un accéléromètre.
 
