@@ -42,8 +42,9 @@ Ce capteur peut être falsifié mais pour cela il faudra bouger le boîtier.
 * un capteur de mouvement
 
 Le boîtier est fixé en mur, si il en est décroché, le capteur va le détecter.
-
-→ on détecte alors que le boitier est en mouvement et on affiche un message d’erreur sur l’écran + envoie de mail + éventuellement un arrêt de l’application.
+Le boîtier a été créé grâce à une découpe laser. Le gabarit à été créé sur le site : https://www.makercase.com/
+Le design a été pensé pour contenir tous les éléments electroniques confiné entre eux. Toutes infractations à la boite générera une alerte.
+C'est alors que l'on détecte que le boitier est en mouvement et on affiche un message d’erreur sur l’écran + envoie de mail + éventuellement un arrêt de l’application.
 Dans le prototype on utilise un capteur “tilt” qui n’est pas très précis. L’idéal serait un accéléromètre.
 
 Pour palier à toute attaque comme une coupure de courant ou une prise débrancher. Le produit final devra être équipé d’une pile et d’une alarme sonore.
